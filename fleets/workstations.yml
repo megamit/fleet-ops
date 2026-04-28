@@ -187,10 +187,14 @@ software:
 
   packages: # Custom packages (if any)
     # macOS custom packages
-    # …
-
+    - path: ../platforms/macos/software/zoom.yml
+      self_service: true
+      setup_experience: true
+      categories:
+        - Communication
     # Windows custom packages
-    # …
+    - path: ../platforms/windows/software/cloudflare-warp.yml
+      self_service: false
 
     # Linux custom packages
     # …
