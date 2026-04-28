@@ -9,3 +9,7 @@
   platform: darwin
   label_membership_type: dynamic
   query: "SELECT 1 FROM uptime WHERE days > 30"
+- name: C-Suite
+  description: Hosts belonging to C-Suite executives
+  label_membership_type: manual
+  hosts:
