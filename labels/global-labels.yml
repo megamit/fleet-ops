@@ -7,5 +7,5 @@
 - name: Uptime over 30 days
   description: "Hosts with uptime over 30 days"
   platform: darwin
-  label_membership_type: host_vitals
+  label_membership_type: dynamic
   query: "SELECT 1 FROM uptime WHERE days > 30"
